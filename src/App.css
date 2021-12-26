@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin:100px;
+
+}
+body {
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-repeat: no-repeat;
+  height:cover; 
+  
+ 
+  
+}
+
+.completed  {
+  text-decoration: line-through;
+}
+input {
+  padding: 11px 15px;
+  width:40%;
+}
+input {
+  background:border-box;
+}
+input:focus {
+  outline: none;
+}
+button {
+  padding: 11px 15px;
+  border-radius:none;
+  margin-bottom: 20px;
+}
+
+.Todo {
+  border:1px solid black;
+  margin:20px; 
+  padding:10px 20px; 
+  text-align: center;
+
+}
+.item {
+  display:flex;
+  align-items: baseline;
+}
+.all {
+  margin:10px;
+}
